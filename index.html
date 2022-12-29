@@ -14,16 +14,33 @@
 
 <body>
     
-    <select id="inputSelect">
-        <option value="0">Seleziona</option>
-        <option value="10">10 Parole</option>
-        <option value="15">15 Parole</option>
-        <option value="20">20 Parole</option>
-    </select>
+    <div class="container">
+        <h1>Generatore testo</h1>
 
-    <input type="number" name="numberWordsFree" id="numberWordsFree">
+        <h2>Di quante parole deve essere composta la frase?</h2>
 
-    <h5 id="result_Words"></h5>
+        <div class="align-center">
+            <div class="select_length_word">
+                    <h4>Scegli fra 3 lunghezze disponibili</h4>
+                    <select id="inputSelect">
+                        <option value="0">Seleziona</option>
+                        <option value="10">10 Parole</option>
+                        <option value="15">15 Parole</option>
+                        <option value="20">20 Parole</option>
+                    </select>
+                </div>
+
+                <h3>oppure</h3>
+                
+                <div class="select_length_word">
+                    <h4>digita un numero a tuo piacere (premi invio per generare)</h4>
+                    <input type="number" name="numberWordsFree" id="numberWordsFree">
+                </div>
+        </div>
+
+            <p id="result_Words"></p>
+    </div>
+    
 
 </body>
 </html>

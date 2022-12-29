@@ -6,4 +6,90 @@
 
 body {
     font-family: sans-serif;
+    background: rgb(4, 0, 62);
+    background: radial-gradient(circle, rgba(4, 0, 62, 1) 0%, rgba(0, 0, 8, 1) 100%);
 }
+
+.container {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    margin: 50px 0;
+    padding: 20px;
+    font-size: 2.5rem;
+    letter-spacing: 1.2rem;
+    color: blue;
+    background: rgb(255, 255, 255);
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 0%, rgba(0, 0, 8, 0) 100%);
+}
+
+h2{
+    color: #fff;
+    letter-spacing: 0.1rem;
+    line-height: 2rem;
+    margin-bottom: 40px;
+}
+
+h3{
+    margin: 40px;
+    color: #fff;
+}
+
+.align-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.select_length_word{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.select_length_word select,
+.select_length_word input{
+    width: 200px;
+    height: 30px;
+}
+
+.select_length_word h4{
+    color: #fff;
+    padding-right: 10px;
+}
+
+p{
+    margin-top: 5px;
+    padding: 15px;
+    width: 80vw;
+    height: calc(100vh / 2.5);
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    overflow-y: auto;
+    line-height: 1.5rem;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #fff; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(221, 221, 221); 
+  }
